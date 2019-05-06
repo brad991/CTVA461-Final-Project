@@ -16,9 +16,15 @@ html{
   grid-template-rows:repeat(3 1fr);
 }
 
-.id{
-  
+#logo{
+  color:white;
+  font-size:32px; 
+}
 
+#vid{
+  color:white;
+  font-size:20px; 
+  padding-left:7em
 }
 .p{
   padding-top:10.75em;
@@ -59,7 +65,7 @@ footer {
 	padding-bottom:6%;
 }
 footer a:link {
-	color:white;
+	color:black;
 }
 .icon {
     font-size: 45px;
