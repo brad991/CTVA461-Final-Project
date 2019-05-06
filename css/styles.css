@@ -94,10 +94,12 @@ footer a:link {
 .fa-twitter {
   background:white;
   color: black;
+  padding-right: 2em
 }
 .fa-instagram {
   background:white;
   color: black;
+  padding-left: 1em
 }
 footer span {
 	padding-bottom:3%;
