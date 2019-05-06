@@ -1,0 +1,103 @@
+html{
+	font-family:"american typewriter";
+}
+
+/**
+* Custom CSS Grid
+*/
+.br-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+.br-grid-rows {
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows:repeat(3 1fr);
+}
+
+.id{
+  
+
+}
+.p{
+  padding-top:10.75em;
+}
+
+.bg-video{
+  background:url(../images/bgvideo.gif) center center no-repeat;
+  background-size:cover;
+}
+.bg-video2{
+  background:url(../images/bgvideo2.gif) center center no-repeat;
+  background-size:cover;
+}
+.bg-video3{
+  background:url(../images/bgvideo3.gif) center center no-repeat;
+  background-size:cover;
+}
+.bg-video4{
+  background:url(../images/bgvideo4.gif) center center no-repeat;
+  background-size:cover;
+}
+.bg-video5{
+  background:url(../images/bgvideo5.gif) center center no-repeat;
+  background-size:cover;
+}
+/**
+* Custom Heights
+*/
+.h-90 {
+  height:90vh;
+}
+
+/* ------- Footer ------- */
+footer {
+	text-align:center;
+	background-color: #606f7b;
+	color:white;
+	padding-bottom:6%;
+}
+footer a:link {
+	color:white;
+}
+.icon {
+    font-size: 45px;
+    word-spacing: 50px;
+    padding:-15px;
+}
+#footerSocial a {
+	color:white;
+}
+.fa {
+  padding: 20px;
+  font-size:15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background:white;
+  color: black;
+}
+.fa-twitter {
+  background:white;
+  color: black;
+}
+.fa-instagram {
+  background:white;
+  color: black;
+}
+footer span {
+	padding-bottom:3%;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
